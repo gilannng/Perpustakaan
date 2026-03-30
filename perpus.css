@@ -1,0 +1,180 @@
+/* ========================================================= */
+
+
+/* style.css: CSS Kustom untuk Aplikasi Perpustakaan Vue.js */
+
+
+/* Palet Warna: Modern Teal & Soft Orange/Yellow */
+
+
+/* ========================================================= */
+
+:root {
+    --primary-color: #008080;
+    /* Teal/Biru Kehijauan */
+    --secondary-color: #FFC04D;
+    /* Soft Orange/Yellow */
+    --background-light: #F8F9FA;
+    /* Sangat terang, hampir putih */
+    --card-bg: #FFFFFF;
+    --text-dark: #212529;
+    --shadow-soft: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    --shadow-deep: 8px 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+body {
+    background-color: var(--background-light);
+    color: var(--text-dark);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* 1. Navbar (Header) */
+
+.navbar {
+    background-color: var(--primary-color) !important;
+    box-shadow: 0 4px 10px rgba(0, 128, 128, 0.2);
+    border-bottom: 4px solid var(--secondary-color);
+    /* Garis pemisah unik */
+}
+
+.navbar-brand {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    transition: all 0.3s ease;
+    border-radius: 6px;
+    padding: 8px 15px !important;
+}
+
+.nav-link.active,
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    /* Efek hover yang lembut */
+    color: var(--secondary-color) !important;
+    font-weight: 600;
+}
+
+
+/* 2. Tombol (Buttons) */
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    transition: all 0.3s ease;
+    box-shadow: 2px 2px 5px rgba(0, 128, 128, 0.3);
+}
+
+.btn-primary:hover {
+    background-color: #006666;
+    border-color: #006666;
+    box-shadow: var(--shadow-soft);
+}
+
+.btn-warning {
+    background-color: #f01b1b;
+    border-color: #ffc107;
+    color: var(--text-dark);
+}
+
+
+/* 3. Kartu Dashboard (Dashboard Cards) */
+
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: var(--shadow-soft);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    /* Efek mengangkat saat di-hover */
+    box-shadow: var(--shadow-deep);
+}
+
+
+/* Kustomisasi Card Warna */
+
+.card.bg-info {
+    background-color: var(--primary-color) !important;
+}
+
+.card.bg-success {
+    background-color: #4CAF50 !important;
+    /* Hijau yang lebih cerah */
+}
+
+.card-title {
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+.card-text.fs-1 {
+    font-size: 3rem !important;
+    font-weight: 800;
+}
+
+
+/* 4. Tabel Data (Data Tables) */
+
+.table {
+    background-color: var(--card-bg);
+    border-radius: 8px;
+    box-shadow: var(--shadow-soft);
+    overflow: hidden;
+}
+
+.table thead th {
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: 600;
+    border-bottom: none;
+}
+
+.table tbody tr {
+    transition: background-color 0.2s ease;
+}
+
+.table tbody tr:hover {
+    background-color: #e9ecef;
+    /* Hover abu-abu terang */
+}
+
+
+/* 5. Modal dan Form */
+
+.modal-content {
+    border-radius: 12px;
+    box-shadow: var(--shadow-deep);
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.25rem rgba(0, 128, 128, 0.25);
+}
+
+
+/* 6. Footer */
+
+footer {
+    background-color: var(--card-bg) !important;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.05);
+}
+
+
+/* 7. Responsivitas (Meningkatkan Keterbacaan di Mobile) */
+
+@media (max-width: 767.98px) {
+    .responsive-table tr {
+        border-left: 5px solid var(--secondary-color);
+        /* Tambahkan aksen warna di mobile */
+    }
+    .responsive-table td::before {
+        color: var(--primary-color);
+        font-weight: 700;
+    }
+}
