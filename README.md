@@ -14,7 +14,7 @@ Sebuah aplikasi web manajemen perpustakaan interaktif yang dirancang untuk memud
 | :---: | :---: |
 |<img width="1919" height="968" alt="image" src="https://github.com/user-attachments/assets/4a79b868-4173-457f-af71-a48a21940b3b" />
 | <img width="1896" height="964" alt="image" src="https://github.com/user-attachments/assets/b1dc4334-8ae3-4c4e-aeb8-640fad431394" />
-<img width="1919" height="968" alt="image" src="https://github.com/user-attachments/assets/09e49b6f-5660-4203-a408-246fdda39dbd" />|
+|<img width="1919" height="968" alt="image" src="https://github.com/user-attachments/assets/09e49b6f-5660-4203-a408-246fdda39dbd" />
 
 ---
 
