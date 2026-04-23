@@ -9,7 +9,6 @@ Sebuah aplikasi web manajemen perpustakaan interaktif yang dirancang untuk memud
 ---
 
 ## 🖼️ Tampilan Antarmuka (Screenshots)
-*(Catatan: Ganti tautan gambar di bawah dengan screenshot asli aplikasimu)*
 
 | Beranda & Daftar Buku | Dasbor Peminjaman |
 | :---: | :---: |
